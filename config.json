@@ -1,0 +1,63 @@
+{
+    "hotkey": "f12",
+    "countdown": 0,
+    "window_filter": "",
+    "auto_focus": false,
+    "always_on_top": false,
+    "anti_afk_enabled": false,
+    "anti_afk_minutes": 5,
+    "rules": [
+        {
+            "key": "f3",
+            "interval": 60.0,
+            "jitter": 0.1,
+            "enabled": true
+        },
+        {
+            "key": "1",
+            "interval": 2.0,
+            "jitter": 0.15,
+            "enabled": false
+        },
+        {
+            "key": "f8",
+            "interval": 600.0,
+            "jitter": 0.5,
+            "enabled": true
+        },
+        {
+            "key": "2",
+            "interval": 30.0,
+            "jitter": 1.0,
+            "enabled": false
+        }
+    ],
+    "pixel_triggers": [
+        {
+            "name": "Auto-Heal (Vida)",
+            "x": 0,
+            "y": 0,
+            "expected_color": [
+                0,
+                200,
+                0
+            ],
+            "trigger_action": "f1",
+            "cooldown": 1.0,
+            "enabled": false
+        },
+        {
+            "name": "Auto-Mana (Poci\u00f3n)",
+            "x": 0,
+            "y": 0,
+            "expected_color": [
+                0,
+                100,
+                255
+            ],
+            "trigger_action": "f2",
+            "cooldown": 1.5,
+            "enabled": false
+        }
+    ]
+}
